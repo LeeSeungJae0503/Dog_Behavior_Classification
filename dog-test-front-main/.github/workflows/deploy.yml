@@ -1,0 +1,35 @@
+name: Deploy React App to GCP VM
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build React app
+        run: CI=false npm run build
+
+      - name: Deploy to GCP VM
+        uses: appleboy/scp-action@v0.1.4
+        with:
+          host: 35.239.95.57
+          username: rudgus4620
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: 22
+          source: "build/*"
+          target: "/var/www/html"
