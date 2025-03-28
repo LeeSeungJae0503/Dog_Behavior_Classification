@@ -1,8 +1,9 @@
 # Footprint  
 **AIを活用した犬の行動分析とソリューション提供Webサービス**
 
-<img src="https://github.com/user-attachments/assets/1b8c6bf1-822e-4e42-aa6f-e86446541c3c" width="600"/>
+> ※ 最初の図が韓国語表記のみで構成されており、申し訳ありません。
 
+<img src="https://github.com/user-attachments/assets/1b8c6bf1-822e-4e42-aa6f-e86446541c3c" width="600"/>
 
 ---
 
@@ -22,14 +23,14 @@ Footprintは、飼い主が愛犬の動画をアップロードすることで�
 - **犬種分類**：写真から犬種を推定し、上位3種と確率を表示
 - **日記機能**：犬の成長過程を記録・保存可能
 
-![image](https://github.com/user-attachments/assets/a0e5a377-cb9b-469a-b0d4-513dc6ef2f8a)
-行動分析UI
+<img src="https://github.com/user-attachments/assets/a0e5a377-cb9b-469a-b0d4-513dc6ef2f8a" width="600"/>
+<p>▲ 行動分析のユーザーインターフェース</p>
 
-![image](https://github.com/user-attachments/assets/905f7992-daca-4e11-bf7e-47c8f5400845)
-犬種分類UI
+<img src="https://github.com/user-attachments/assets/905f7992-daca-4e11-bf7e-47c8f5400845" width="600"/>
+<p>▲ 犬種分類のユーザーインターフェース</p>
 
-![image](https://github.com/user-attachments/assets/254caa01-4aa9-458e-b43a-a01d0771e62f)
-ダイアリーUI
+<img src="https://github.com/user-attachments/assets/254caa01-4aa9-458e-b43a-a01d0771e62f" width="600"/>
+<p>▲ ダイアリー機能のユーザーインターフェース</p>
 
 ---
 
@@ -46,11 +47,11 @@ Footprintは、飼い主が愛犬の動画をアップロードすることで�
 ## 使用技術
 
 - Python, Flask, TensorFlow  
-- MoviNet A2
+- MoviNet A2  
 - Google Cloud Platform（VM, Cloud SQL, Storage）
 
-![image](https://github.com/user-attachments/assets/9a79d0ff-adc2-4888-bca6-f807c4423925)
-クラウド設計
+<img src="https://github.com/user-attachments/assets/9a79d0ff-adc2-4888-bca6-f807c4423925" width="600"/>
+<p>▲ クラウド構成図（システム全体の構成を示す）</p>
 
 ---
 
@@ -59,5 +60,3 @@ Footprintは、飼い主が愛犬の動画をアップロードすることで�
 - 犬の行動理解不足による飼育放棄の防止
 - AIによる個別対応型の行動ケア提供
 - ペット産業におけるデータ活用型サービスの新提案
-
-
