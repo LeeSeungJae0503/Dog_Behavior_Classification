@@ -1,5 +1,6 @@
 # Footprint  
 **AIを活用した犬の行動分析とソリューション提供Webサービス**
+![image](https://github.com/user-attachments/assets/1b8c6bf1-822e-4e42-aa6f-e86446541c3c)
 
 ---
 
@@ -19,6 +20,15 @@ Footprintは、飼い主が愛犬の動画をアップロードすることで�
 - **犬種分類**：写真から犬種を推定し、上位3種と確率を表示
 - **日記機能**：犬の成長過程を記録・保存可能
 
+![image](https://github.com/user-attachments/assets/a0e5a377-cb9b-469a-b0d4-513dc6ef2f8a)
+行動分析UI
+
+![image](https://github.com/user-attachments/assets/905f7992-daca-4e11-bf7e-47c8f5400845)
+犬種分類UI
+
+![image](https://github.com/user-attachments/assets/254caa01-4aa9-458e-b43a-a01d0771e62f)
+ダイアリーUI
+
 ---
 
 ## 担当業務（個人）
@@ -36,6 +46,9 @@ Footprintは、飼い主が愛犬の動画をアップロードすることで�
 - Python, Flask, TensorFlow  
 - MoviNet A2
 - Google Cloud Platform（VM, Cloud SQL, Storage）
+
+![image](https://github.com/user-attachments/assets/9a79d0ff-adc2-4888-bca6-f807c4423925)
+クラウド設計
 
 ---
 
