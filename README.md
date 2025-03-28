@@ -1,6 +1,8 @@
 # Footprint  
 **AIを活用した犬の行動分析とソリューション提供Webサービス**
-![image](https://github.com/user-attachments/assets/1b8c6bf1-822e-4e42-aa6f-e86446541c3c)
+
+<img src="https://github.com/user-attachments/assets/1b8c6bf1-822e-4e42-aa6f-e86446541c3c" width="600"/>
+
 
 ---
 
